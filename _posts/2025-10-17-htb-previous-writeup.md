@@ -1,6 +1,6 @@
 ---
 title: HackTheBox Previous Writeup
-authors: Samarth
+authors: Shobhit
 date: 2025-10-17 17:26:00 +0530
 categories: [HackTheBox, Machines]
 tags: [HTB,Linux,Nextjs,Authorization-Bypass,CVE-2025-29927]
